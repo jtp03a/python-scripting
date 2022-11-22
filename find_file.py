@@ -34,5 +34,5 @@ if platform_type == 'Windows':
   for drive in get_win_drives():
     search(f'{drive}Users\\xorci\\Documents')
 else:
-  search('/')
+  search('/home/jpeterson/node_projects/python-scripting')
 
